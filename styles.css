@@ -1,5 +1,6 @@
 :root {
   --bitcoin-orange: #f7931a;
+  --bitcoin-purple: #200927;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
@@ -31,7 +32,7 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  background-color: var(--bitcoin-purple);
 }
 
 header img {
@@ -159,7 +160,7 @@ main {
   /* text-align: left; */
 }
 
-.main-currency-table .title2{
+.main-currency-table .title2 {
   color: var(--secondary-blue);
 }
 
@@ -240,7 +241,7 @@ main {
   border-radius: 8px;
 }
 
-.date2{
+.date2 {
   background-color: var(--soft-blue);
 }
 
@@ -304,6 +305,7 @@ main {
   background-color: var(--black);
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  border-bottom: 5px solid var(--bitcoin-orange);
 }
 
 .product-detail---card .icon {
@@ -347,18 +349,18 @@ main {
   color: #808080;
 }
 
-.bitcoin-img-container{
+.bitcoin-img-container {
   width: 100%;
   min-width: 320px;
   height: 60vh;
-  background-image: url('./assets/img/bitcoinbaby2x.jpg');
+  background-image: url("./assets/img/bitcoinbaby2x.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
 
-.bitcoin-img-container h2{
+.bitcoin-img-container h2 {
   padding-top: 50px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -366,14 +368,14 @@ main {
   color: var(--just-white);
 }
 
-.main-plans-container{
+.main-plans-container {
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
 }
 
-.plans-title{
+.plans-title {
   width: 90%;
   min-width: 288px;
   height: auto;
@@ -381,7 +383,7 @@ main {
   margin-bottom: 50px;
 }
 
-.plans-title h2{
+.plans-title h2 {
   padding-top: 50px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -389,7 +391,7 @@ main {
   color: var(--black);
 }
 
-.plans-title p{
+.plans-title p {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
@@ -397,20 +399,20 @@ main {
   color: #757575;
 }
 
-.plans-container--slider{
+.plans-container--slider {
   display: flex;
   /* gap: 30px; */
   height: 316px;
   overflow-x: scroll;
-  overscroll-behavior-x: contain ;
+  overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
 
-.plans-container--slider::-webkit-scrollbar{
-     display: none;
+.plans-container--slider::-webkit-scrollbar {
+  display: none;
 }
 
-.plans-container--card{
+.plans-container--card {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
@@ -424,7 +426,7 @@ main {
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.plans--recommended{
+.plans--recommended {
   position: absolute;
   width: 120px;
   height: 31px;
@@ -437,7 +439,7 @@ main {
   color: var(--just-white);
 }
 
-.plan-card--title{
+.plan-card--title {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
@@ -445,7 +447,7 @@ main {
   color: var(--black);
 }
 
-.plan-card--price{
+.plan-card--price {
   position: relative;
   padding: 5px 0;
   font-size: 5.2rem;
@@ -454,18 +456,18 @@ main {
   color: var(--black);
 }
 
-.plan-card--price span{
+.plan-card--price span {
   font-size: 1.2rem;
   font-weight: 300;
   vertical-align: text-top;
 }
 
-.plan-card--saving{
+.plan-card--saving {
   font-size: 1.2rem;
   color: #757575;
 }
 
-.plan-card--ca{
+.plan-card--ca {
   width: 150px;
   height: 48px;
   margin-top: 20px;
@@ -479,43 +481,43 @@ main {
   color: var(--black);
 }
 
-.plan-card--ca span{
+.plan-card--ca span {
   display: inline-block;
   width: 20px;
   height: 20px;
   vertical-align: text-bottom;
-  background-image: url('./assets/icons/orange-right-arrow.svg');
+  background-image: url("./assets/icons/orange-right-arrow.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-footer{
+footer {
   display: flex;
   width: 100%;
   height: 150px;
-  background-color: var(--bitcoin-orange);
+  background-color: var(--bitcoin-purple);
 }
 
-footer section{
+footer section {
   display: flex;
   width: 50%;
   justify-content: center;
   align-items: center;
 }
 
-footer .left ul{
+footer .left ul {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   list-style: none;
 }
 
-.left li{
+.left li {
   margin: 10px 0;
 }
 
-.left a{
+.left a {
   text-decoration: none;
   color: var(--just-white);
 }
