@@ -156,7 +156,11 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-orange);
-  text-align: left;
+  /* text-align: left; */
+}
+
+.main-currency-table .title2{
+  color: var(--secondary-blue);
 }
 
 .currency-table--container {
@@ -234,6 +238,10 @@ main {
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
+}
+
+.date2{
+  background-color: var(--soft-blue);
 }
 
 .currency-table--date p {
@@ -396,6 +404,10 @@ main {
   overflow-x: scroll;
   overscroll-behavior-x: contain ;
   scroll-snap-type: x proximity;
+}
+
+.plans-container--slider::-webkit-scrollbar{
+     display: none;
 }
 
 .plans-container--card{
